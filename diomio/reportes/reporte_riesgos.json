@@ -1,0 +1,27 @@
+{
+    "total_riesgos": 2,
+    "riesgos": [
+        {
+            "modulo": "Cámara IA",
+            "riesgo": "Sesgo en visión nocturna",
+            "categoria": "Sesgo",
+            "impacto": "Alto",
+            "probabilidad": "Media",
+            "score": 15,
+            "nivel": "Medio",
+            "color": "orange",
+            "mitigacion": "Pruebas de iluminación"
+        },
+        {
+            "modulo": "LLM Asistente",
+            "riesgo": "Alucinaciones en datos de camiones",
+            "categoria": "Precisión",
+            "impacto": "Alto",
+            "probabilidad": "Baja",
+            "score": 5,
+            "nivel": "Bajo",
+            "color": "green",
+            "mitigacion": "Validación estricta RAG"
+        }
+    ]
+}
